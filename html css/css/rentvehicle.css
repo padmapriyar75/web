@@ -1,0 +1,317 @@
+body{
+  zoom: 75%;
+}
+.head1
+{
+  background: rgba(53, 124, 175, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+.city{
+  width: 170px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  font-family: sans-serif;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  height: 35px;
+  float: left;
+  margin-top: 5px;
+}
+.city p{
+  font-size: 15px;
+  padding: 5px 0 0 10px;
+
+}
+.city p:after{
+content: "| ";
+  padding-left:30px;
+}
+.fa-user{
+  color: white;
+}
+.loclogo{
+  margin-top: 0px;
+}
+.la1{
+  width: 140px;
+  height: 30px;
+  float: left;
+}
+.ra1{
+  margin: 8px 0 0 0;
+}
+.head_right nav{
+  overflow: hidden;
+}
+.head_right{
+
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 15px;
+}
+.head_right a{
+  text-decoration: none;
+  color: white;
+}
+.head_right a:after{
+  content: "|";
+  margin: 5px ;
+}
+.head_right a:last-child:after
+{
+  content: none;
+}
+.container_12{
+  width: 1020px;
+}
+.container_12 .grid_4{
+
+  height: 430px;
+  width: 300px;
+  position: relative;
+  margin-top: 10px;
+  padding: 0;
+  margin: 3px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.head{
+  width: 100%;
+  height: 50px;
+  background: #0f6cb2;
+}
+.sidenav{
+position:fixed;
+overflow: hidden;
+background:rgba(15, 108, 178, 0.8);
+width: 230px;
+left: 100px;
+top: 150px;
+height: 440px;
+border-radius: 5px;
+}
+.img{
+  float: left;
+  margin-top: 5px;
+  width: 290px;
+  height: 280px;
+  background: black;
+  margin-left: 5px;
+}
+.name p{
+  float: left;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin: 0 5px 0 5px;
+}
+nav{
+  width: 300px;
+  height: 40px;
+  overflow:hidden;
+  margin-left: 5px;
+}
+nav li{
+
+  display: inline;
+  font-family: 'Signika', sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  overflow: hidden;
+  margin-left: 5px;
+  color: #666;
+}
+nav li:before{
+  font-size: 11px;
+  content: ">";
+}
+.bottom{
+  width: 300px;
+  height: 50px;
+}
+.location{
+  float: left;
+  width: 130px;
+  font-family: sans-serif;
+  height:50px;
+  float: left;
+  border-right: 1px solid grey;
+}
+hr{
+  margin: 0;
+}
+.icon{
+  float: left;
+  width:20px;
+  margin: 7px 0 0 5px;
+  color:#0f6cb2;
+  height:30px;
+  font-size: 20px;
+}
+.txt
+{
+  float: left;
+  width:100px;
+  font-family:'Signika', sans-serif;
+  font-size: 15px;
+  margin-top: 8px;
+  margin-left: 5px;
+
+}
+.logo1{
+  width: 150px;
+  height: 50px;
+  margin-left: 135px;
+}
+.cost{
+  float: left;
+  width: 115px;
+  height: 50px;
+  border-right: 1px solid grey;
+}
+.cost2{
+  font-size: 20px;
+  margin-top: 06px;
+}
+.cost2:after{
+  font-family:'Signika', sans-serif;
+  color:grey;
+  font-size: 18px;
+  content: "/day"
+}
+.call
+{
+  float: left;
+  width: 50px;
+  height: 46px;
+  text-align: center;
+  color: green;
+  font-size:28px;
+  margin-top: 1px;
+}
+.a1{
+  float: left;
+  width: 200px;
+  height: 45px;
+  margin: 10px 0 0 0;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+  color:white;
+  padding-top: 15px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.a1:hover{
+  background: white;
+  color: black;
+}
+i{
+  margin-left: 10px;
+}
+.footer{
+  width: 100%;
+  background: #0f6cb2;
+  height: 50px;
+
+}
+li a{
+  color: white;
+  font-size: 20px;
+margin-left: 50px;
+}
+li{
+  list-style: none;
+  display: inline;
+
+}
+.ul1{
+  margin-left: 125px;
+}
+.logo123{
+  width: 30px;
+  height: 20px;
+  margin-left: 45%;
+}
+.foo{
+  clear: both;
+  bottom: -2px;
+  background: rgba(53, 124, 175, 0.8);
+  width: 100%;
+  height: 8vh;
+  position: relative;
+  bottom: 0;
+}
+.maindetail{
+  width: 75%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.mainbody{
+  margin-top: 40px;
+  min-height: 100%;
+}
+.f1 ,.f2, .f3, .f4{
+  float: left;
+  margin-left:7px;
+  height: 8vh;
+  width: 100px;
+}
+.f1:hover ,.f2:hover, .f3:hover, .f4:hover{
+  cursor: pointer;
+}
+.f1{
+margin-left: 40%;
+}
+.fo{
+  margin-bottom: 0px;
+  padding-top: 14px;
+  font-size: 17px;
+  font-weight: 200;
+  color: white;
+}
+.lis{
+  display: inline;
+  font-size: 30px;
+  list-style: none;
+  color: white;
+}
+.social nav li:before {
+    font-size: 11px;
+    content: "";
+}
+
+.social a{
+      text-decoration: none;
+  color: white;
+}
+.social{
+  position: absolute;
+right: 15px;
+}
+.pageinfo{
+  width: 500px;
+  height: 30px;
+  margin-top: 10px;
+
+}
+.pageinfo p{
+  margin-top: 70px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 15px;
+}

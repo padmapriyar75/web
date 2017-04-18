@@ -1,0 +1,308 @@
+
+  #bak{
+  background:url("../../images/home.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   height:100%;
+}
+
+.navbar-default {
+    background: none;
+    border:none;
+}
+.margin1{
+  margin-top: 20px;
+}
+#navcolor{
+  margin-top: 20px;
+  background: rgba(0,0,0,0.8);
+  margin-top: 0;
+}
+
+
+#navcolor a.navbar-brand{
+  padding: 5px 20px;
+}
+#navcolor img{
+  width: 100px;
+  height: 40px;
+}
+#tabcolor li a {
+  -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  font-family:Open Sans;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+#removebak {
+  background: none;
+}
+ul.dropdown-menu {
+  background:rgba(34, 34, 34, 0.7);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 1px;
+
+}
+#navcolor2 li a{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  color: #8b836e;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.circleboder{
+  border-radius: 10%;
+  border: 2px solid white;
+}
+
+body{
+-webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+.well .page-header{
+  margin-top: 0;
+}
+.well .page-header h1{
+  margin-top: 0;
+}
+#vcenter{
+     margin-top: 18%;
+}
+
+
+     #searchInput{
+     width: 200px;
+    }
+   .navbar-brand{
+    padding: 14px 15px;
+    }
+    #small_title {
+      text-align: center;
+      font-size: 20px;
+      font-family:"Century Gothic", sans-serif ;
+    font-weight: 300;
+    color:white;
+    opacity: 0.7;
+    }
+
+.iconcolor{
+  font-size: 40px;
+  font-weight: 800;
+  text-align:center;
+}
+#big_title  {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+.page-header{
+  border-bottom: none;
+}
+
+.iconcolor a {
+  color: #fff;
+  text-decoration: none;
+
+}
+.navbar{
+  background: rgba(0, 0, 0, 0.8);
+
+}
+.navbar-fixed-top{
+    margin-top: 0;
+}
+
+.option{
+text-align: center;
+color: white;
+border: 2px solid #5f5743;
+-webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+font-family:Open Sans;
+color: white;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 800;
+font-size: 17px;
+border-radius: 10%;
+}
+
+ a .option{
+  color: #5f5743;
+  text-decoration: none;
+  font-size: 20px;
+  background: rgba(0,0,0,0.2);
+}
+#car{
+  display: none;
+}
+#bike{
+display: none;
+}
+.foo{
+margin-top: 10%;
+background: rgba(0, 0, 0, 0.8);
+text-align: center;
+color: white;
+}
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+  color: white;
+}
+#CONTENT1{
+  display: none;
+
+}
+#CONTENT2{
+  display: none;
+
+}
+.hea{
+  color:#5f5743;
+}
+.unstyled li a{
+  color: white;
+}
+
+@media (min-width: 1200px) {
+
+  .iconcolor{
+
+    font-size: 80px;
+
+  }
+  #vcenter {
+      margin-top: 10%;
+    }
+    .foo{
+
+      margin-top: 24%;
+
+    }
+
+
+}
+
+
+@media (max-width: 1199px) {
+
+  .iconcolor{
+
+    font-size: 80px;
+
+  }
+  #vcenter {
+      margin-top: 20%;
+    }
+    .foo{
+    margin-top: 35%;
+    }
+}
+@media (max-width:992px) {
+
+.navbar-nav>li>a.dropdown-toggle{
+  padding: 15px 15px;
+}
+  #vcenter {
+      margin-top: 15%;
+    }
+}
+  .iconcolor{
+
+    font-size: 70px;
+  }
+  #big_title  {
+    font-size: 35px;
+  }
+
+}
+
+
+
+@media (max-width:767px) {
+
+.navbar-nav>li>a.dropdown-toggle{
+  padding: 15px 15px;
+}
+.navbar-collapse{
+  background: rgba(0, 0, 0, 0.8);
+}
+#vcenter {
+    margin-top: 35%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .iconcolor{
+
+    font-size: 60px;
+
+  }
+  .topalign{
+    margin-top: 30px;
+  }
+  .innermargin{
+    margin-top: 40px;
+  }
+  .foo{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 10px;
+  }
+  a .option{
+    background: rgba(0,0,0,0.6);
+  }
+
+}
+@media(max-width: 480px) {
+#vcenter {
+    margin-top: 25%;
+  }
+  .iconcolor{
+    font-size: 25px;
+  }
+  #big_title  {
+    font-size: 22px;
+  }
+  .topalign{
+    margin-top: 10px;
+  }
+  #car{
+    margin-top: 30px;
+
+  }
+  #bike{
+  margin-top: 30px;
+
+  }
+  .foo{
+    position: relative;
+  margin-top: 60%;
+    font-size: 10px;
+  }
+  .foo .hea{
+    font-size: 11px;
+  }
+
+}
+#CONTENT1{
+  display: none;
+  margin-top: 10%;
+}
+#CONTENT2{
+  display: none;
+  margin-top: 10%;
+}
